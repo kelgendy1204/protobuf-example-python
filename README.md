@@ -1,4 +1,4 @@
-# Protocol Buffers Example in Python
+# Protocol Buffers Example in Node.js
 
 This is a companion repository for my [Protocol Buffers course](http://bit.ly/protocol-buffers-github)
 

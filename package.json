@@ -1,0 +1,23 @@
+{
+  "name": "protobuf-example-python",
+  "version": "1.0.0",
+  "description": "This is a companion repository for my [Protocol Buffers course](http://bit.ly/protocol-buffers-github)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelgendy1204/protobuf-example-python.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelgendy1204/protobuf-example-python/issues"
+  },
+  "homepage": "https://github.com/kelgendy1204/protobuf-example-python#readme",
+  "dependencies": {
+    "google-protobuf": "^3.19.1"
+  }
+}
