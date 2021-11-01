@@ -15,14 +15,12 @@ function createSimple1andSaveToBinaryFile() {
     fs.writeFileSync(s1Path, s1.serializeBinary());
 }
 
-
 function getSimple2FromBinaryFileAndLogData() {
     const s2Path = path.join(__dirname, './simple2.bin');
     const s2binary = fs.readFileSync(s2Path);
-    const s2Object = schema.SimpleMessage.deserializeBinary(s2binary);
+    const s2Object = schema.SimpleMessage.deserializeBinary(s2binary).toObject();
     console.log(s2Object);
 }
-
 
 createSimple1andSaveToBinaryFile();
 getSimple2FromBinaryFileAndLogData();
